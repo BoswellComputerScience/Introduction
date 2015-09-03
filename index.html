@@ -8,6 +8,20 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <style>
+      form {
+        display: table;
+      }
+      p {
+        display: table-row;
+      }
+      label {
+        display: table-cell;
+      }
+      input {
+        display: table-cell;
+      }
+    </style>
   </head>
   <body>
     <section class="page-header">
@@ -37,8 +51,16 @@
 
 <p>Fill in the form to connect your account to the Boswell Computer Science GitHub.</p>
 <form action="link_accout.php" method="post">
-  <input type="text" name="username" />
-  <input type="password" name="password" />
+  <table>
+    <p>
+      <label>Username: </label>
+      <input type="text" name="username" />
+    </p>
+    <p>
+      <label>Password: </label>
+      <input type="password" name="password" />
+    </p>
+  </table>
 </form>
 
 <h3>

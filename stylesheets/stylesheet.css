@@ -66,17 +66,25 @@ a {
 
 .header-links ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .header-links li {
   display: inline;
+  padding: 0.2em 0.7em;
 }
 
 .header-links a {
   color: #159957;
   text-decoration: none;
   font-size: 17pt;
+  transition: color 0.4s;
+}
+
+.header-links a:hover {
+  color: #155799;
 }
 
 @media screen and (min-width: 64em) {

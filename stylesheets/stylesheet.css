@@ -61,7 +61,7 @@ a {
 
 .header-links {
   width: 100%;
-  border-width: 2;
+  border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(120deg, #155799, #159957);
 }

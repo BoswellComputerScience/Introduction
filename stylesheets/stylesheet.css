@@ -63,7 +63,7 @@ a {
   width: 100%;
   border-bottom-width: 2px;
   border-bottom-style: solid;
-  border-bottom-image: linear-gradient(120deg, #155799, #159957);
+  border-bottom-color: #B0B0B0;
 }
 
 .header-links ul {
@@ -79,7 +79,7 @@ a {
 }
 
 .header-links a {
-  color: #159957;
+  color: #5C258D;
   text-decoration: none;
   font-size: 17pt;
   transition: color 0.4s;

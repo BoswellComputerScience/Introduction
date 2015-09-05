@@ -5,9 +5,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #606c71; }
+  font-size: 14px;
+  line-height: 1.5; }
 
 a {
   color: #1e6bb8;
@@ -56,36 +55,9 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #5C258D, #4389A2); } /* #155799, #159957 */
-
-.header-links {
-  width: 100%;
-  border-top: 2px solid #B0B0B0;
-  border-bottom: 2px solid #B0B0B0;
-}
-
-.header-links ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.header-links li {
-  display: inline;
-  padding: 0.2em 0.7em;
-}
-
-.header-links a {
-  color: #5C258D;
-  text-decoration: none;
-  font-size: 17pt;
-  transition: color 0.4s;
-}
-
-.header-links a:hover {
-  color: #4389A2;
+  background-image: url('../images/header-banner.jpg'); /* #155799, #159957 */ /* Change to a picture of a UIL compotition or AP students working */
+  background-size: cover;
+  height: 100vh;
 }
 
 @media screen and (min-width: 64em) {
@@ -99,6 +71,15 @@ a {
 @media screen and (max-width: 42em) {
   .page-header {
     padding: 2rem 1rem; } }
+
+.gs {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  margin-bottom: 1em;
+  color: white;
+}
 
 .project-name {
   margin-top: 0;
@@ -139,9 +120,7 @@ a {
   max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: normal;
-  color: #5C258D; }
+  margin-bottom: 1rem; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -237,24 +216,24 @@ a {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem; } }
+    font-size: 0.9rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
     padding: 2rem 4rem;
-    font-size: 1.1rem; } }
+    font-size: 0.9rem; } }
 
 @media screen and (max-width: 42em) {
   .main-content {
     padding: 2rem 1rem;
-    font-size: 1rem; } }
+    font-size: 0.8rem; } }
 
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
 
-.site-footer-owner {
+.site-footer-owner, .cs-sponsor {
   display: block;
   font-weight: bold; }
 
@@ -263,12 +242,12 @@ a {
 
 @media screen and (min-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: 0.85rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: 0.85rem; } }
 
 @media screen and (max-width: 42em) {
   .site-footer {
-    font-size: 0.9rem; } }
+    font-size: 0.75rem; } }

@@ -24,15 +24,43 @@
       label { display: table-cell; margin: 0.5em; }
       input { display: table-cell; margin: 0.5em; }
     </style>
+    <script>
+      function hide(var id)
+      {
+        var object = document.getElementById(id);
+        object.style.display = "none";
+      }
+    </script>
   </head>
   <body>
     <section class="page-header">
+    <!--
+    CODE NOT READY FOR DEPLOYMENT...
+    <div id="page-header">
+      <div id="page-nav">
+        <ul>
+          <li><a href="/bhs-cs/index.html">Home</a></li>
+          <li>
+            Resources
+            <ul class="sub-list" id="resources-sub-list" onclick="showSubList(resources-sub-list)">
+              <li><a href="/bhs-cs/csuil/index.html">Computer Science UIL</a></li>
+              <li><a href="/bhs-cs/apcs/index.html">AP Computer Science</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      -->
       <h1 class="project-name">Boswell CS AP/UIL</h1>
-      <h2 class="project-tagline">Getting started with Boswell Computer Science</h2>
-      <a href="/bhs-cs/csuil/index.html" class="btn">CS UIL</a>
-      <a href="/bhs-cs/apcs/index.html" class="btn">AP CS</a>
-      <a href="#main-content" class="gs">Get Started</a>
+      <h2 class="project-tagline">Information about Boswell Computer Science</h2>
+      <!-- OUTDATED CODE: Used for the old-style UI -->
+      <a href="csuil/index.html" class="btn">CS UIL</a>
+      <a href="apcs/index.html" class="btn">AP CS</a>
+      <a href="#richardson-alert" class="gs">Get Started</a>
     </section>
+    <div data-alert id="richardson-alert" class="alert-box">
+      The Boswell computer science team competed at Richardson today
+      <a class="close" id="richardson-alert" onclick="getElementById('richardson-alert').style.display='none';">&times;</a>
+    </div>
     <section id="main-content" class="main-content">
       <h2><a id="welcome-to-bhs-cs" class="anchor" href="#welcome-to-bhs-cs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Boswell Computer Science AP/UIL</h2>
       <p>Welcome to the Boswell Computer Science website. This website will host documentation and links to tutorials to help you study for AP and UIL Computer Science.</p>
